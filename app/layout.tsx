@@ -9,29 +9,25 @@ import { Icons } from "@/components/icons";
 import { Provider } from "@/context/usecase";
 
 const sidebar = [
-  {
-    title: "Getting Started",
-  },
+  { title: "Getting Started" },
   {
     title: "Overview",
     href: "/",
-    icon: <Icons.LayoutGrid className="h-4 w-4 stroke-[2.5px]" />,
+    icon: <Icons.CreditCard className="h-4 w-4 stroke-[2.5px]" />,
   },
-  {
-    title: "Exams",
-  },
+  { title: "Exams" },
   {
     title: "1. Table",
     href: "/exam_1",
-    icon: <Icons.Cube className="h-4 w-4 stroke-[2.5px]" />,
+    icon: <Icons.CreditCard className="h-4 w-4 stroke-[2.5px]" />,
   },
   {
     title: "2. Form",
     href: "/exam_2",
-    icon: <Icons.Users className="h-4 w-4 stroke-[2.5px]" />,
+    icon: <Icons.CreditCard className="h-4 w-4 stroke-[2.5px]" />,
   },
   {
-    title: "3. Stack",
+    title: "3. XXXX",
     href: "/exam_3",
     icon: <Icons.CreditCard className="h-4 w-4 stroke-[2.5px]" />,
   },
@@ -48,7 +44,7 @@ const sidebar = [
 ];
 
 export const metadata: Metadata = {
-  title: "Overview - VELDT",
+  title: "Overview - VELDT Inc.",
   description: "VELDT exam web.",
 };
 
@@ -59,7 +55,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <main>
           <Provider>
             <div className="flex min-h-screen w-full bg-neutral-100">
-              <aside className="h-screen w-full min-w-[260px] max-w-[280px] sticky top-0 z-30 flex justify-center p-3 bg-white backdrop-blur-sm border-r border-gray-200">
+              <aside className="sticky top-0 z-30 flex justify-center h-screen w-full min-w-[260px] max-w-[280px] p-3 backdrop-blur-sm border-r border-gray-200 bg-white">
                 <ul className="flex flex-col w-full mt-4">
                   {sidebar.map((entry: any, index: number) => (
                     <li key={index}>
@@ -78,7 +74,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 </ul>
               </aside>
               <div className="w-full min-w-[940px]">
-                <header className="sticky top-0 z-30 w-full h-16 p-3 bg-white backdrop-blur-sm border-b border-gray-200" />
+                <header className="sticky top-0 z-30 w-full h-16 p-3 backdrop-blur-sm border-b border-gray-200 bg-white" />
                 {children}
               </div>
             </div>

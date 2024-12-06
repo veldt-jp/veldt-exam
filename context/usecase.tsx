@@ -3,24 +3,24 @@
 import * as React from "react";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
-import { AccountGateway } from "@/core/account/gateway";
-import { AccountUsecase } from "@/core/account/usecase";
+import { MockGateway } from "@/core/mock/gateway";
+import { MockUsecase } from "@/core/mock/usecase";
 
 import { ErrorProvider, useError } from "@/context/error";
 
 type UseCases = {
-  accountUsecase: AccountUsecase;
+  mockUsecase: MockUsecase;
 };
 
 const UsecaseContext = React.createContext<UseCases | null>(null);
 
 export function UsecaseProvider({ children }: { children: React.ReactNode }) {
-  const accountRepo = new AccountGateway();
+  const mockRepo = new MockGateway();
   const { error } = useError();
 
-  const accountUsecase = new AccountUsecase(accountRepo, error);
+  const mockUsecase = new MockUsecase(mockRepo, error);
   const usecases: UseCases = {
-    accountUsecase,
+    mockUsecase,
   };
 
   return (
