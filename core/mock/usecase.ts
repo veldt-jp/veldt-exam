@@ -1,3 +1,4 @@
+import { TableDataDef, FormDataDef } from "./type";
 import { IMockRepository } from "./irepo";
 
 export class MockUsecase {
@@ -9,7 +10,7 @@ export class MockUsecase {
     this.error = error;
   }
 
-  async fetchTableData(): Promise<any> {
+  async fetchTableData(): Promise<TableDataDef> {
     try {
       return await this.repository.fetchTableData();
     } catch (error) {
@@ -18,7 +19,7 @@ export class MockUsecase {
     }
   }
 
-  async fetchFormData(): Promise<any> {
+  async fetchFormData(): Promise<FormDataDef> {
     try {
       return await this.repository.fetchFormData();
     } catch (error) {
