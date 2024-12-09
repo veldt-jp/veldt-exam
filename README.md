@@ -5,13 +5,25 @@ The repository is used to evaluate core skills in React.js, Next.js, TypeScript,
 
 ## Local Setup
 
-1. **Install Dependencies**:
+1. **Fork Repository**:
+
+   ```sh
+   Press the fork button on the screen
+   ```
+
+3. **Clone Repository**:
+
+   ```sh
+   git clone git@github.com:<user env>/veldt-exam.git
+   ```
+
+4. **Install Dependencies**:
 
    ```sh
    npm install
    ```
 
-2. **Run Development Server**:
+5. **Run Development Server**:
 
    ```sh
    npm run dev
