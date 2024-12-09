@@ -1,3 +1,1 @@
-export type TableDataDef = any;
-
-export type FormDataDef = any;
+export type ToDoDef = any;

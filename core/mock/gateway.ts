@@ -1,13 +1,8 @@
-import { tableRes, formRes } from "@/tests/mock";
+import { todoRes } from "@/tests/mock";
 
 export class MockGateway {
-  async fetchTableData(): Promise<any> {
-    const res = tableRes;
-    return res as any;
-  }
-
-  async fetchFormData(): Promise<any> {
-    const res = formRes;
+  async fetchToDoDef(): Promise<any> {
+    const res = todoRes;
     return res as any;
   }
 }
