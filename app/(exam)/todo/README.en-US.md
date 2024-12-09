@@ -5,9 +5,9 @@ This task aims to evaluate your **component design skills** and ability to appro
 ## Task Overview
 
 Develop a simple ToDo list application.  
-**Required technologies**: **Next.js** or **React.js**.  
-The application should meet the following requirements:
+**Required technologies**: **Next.js** or **React.js**. 
 
+## Notes
 - **You are allowed to use ChatGPT or similar tools.**
 - **You may use headless component libraries such as shadcn.**
 - **Appropriate use of external packages is encouraged.**
