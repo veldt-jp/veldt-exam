@@ -1,69 +1,76 @@
 # ToDo App
 
-This task aims to evaluate your **component design skills** and ability to appropriately separate **View**, **State**, and **Logic**.
+In this assignment, we will evaluate your **component design sense** and your ability to properly separate **View**, **State**, and **Logic**.
 
-## Task Overview
+## Assignment Overview
 
-Develop a simple ToDo list application.  
-**Required technologies**: **Next.js** or **React.js**. 
+Please develop a simple ToDo list app.  
+Technologies to use: **Next.js** or **React.js**.
 
-## Notes
-- **You are allowed to use ChatGPT or similar tools.**
-- **You may use headless component libraries such as shadcn.**
-- **Appropriate use of external packages is encouraged.**
-- Feel free to reference design resources such as **Pinterest** or **Mobbin**.
+## Additional Notes
+
+- You may use tools like ChatGPT or similar.
+- The use of headless component libraries like Shadcn is optional.
+- Feel free to use external packages appropriately.
+- You can refer to resources like Pinterest or Mobbin for design inspiration.
 
 ## Requirements
 
-### 1. Core Features
+### 1. Functional Requirements
+
+Please implement the following basic and advanced features.
+
+#### Basic Features
 
 - **Add ToDo items**
+  - Ability to add a title, description, status, and deadline for each ToDo item.
 - **Delete ToDo items**
-- **Update ToDo status**
-  - Toggle between "Incomplete" and "Complete."
+  - Ability to delete one or more ToDo items.
+- **Edit ToDo items**
+  - Ability to change the title, description, status, and deadline of ToDo items.
 
-### 2. Display
+#### Advanced Features
 
-- **Categorization of ToDo items**
-  - Separate incomplete ToDo items and completed ToDo items into different sections.
-- **UI Requirements**
-  - The interface should be simple and intuitive to use.
+- **Change Status**
+  - Ability to toggle the status of each ToDo item (from "Incomplete" to "Complete" and vice versa).
+- **Set Deadline**
+  - Ability to set a deadline for each ToDo item.
+- **Highlight Near Deadline**
+  - Ability to visually highlight ToDo items that have a deadline within 1 day (e.g., red color).
+- **Appropriate Validation**
+  - Add validation for the title and description fields, and display error messages when necessary.
+- **Categorize ToDo items**
+  - Display ToDo items in separate sections based on their status (Incomplete and Complete).
 
-### 3. State Management
+### 2. Component Design Requirements
 
-- Properly manage the state of each ToDo item (Incomplete/Complete).
-- Ensure the state management is simple yet scalable.
+- Design reusable components that are easy to maintain and extend.
 
-### 4. Component Design
+### 3. UI Requirements
 
-- Design reusable components.
+- Implement a simple and intuitive interface.
 
-### 5. Additional Features
+### 4. State Management Requirements
 
-- **Set Deadlines**
-  - Allow users to assign deadlines to each ToDo item.
-- **Highlight Approaching Deadlines**
-  - Visually emphasize items with deadlines within 1 day (e.g., display them in red).
-- **Appropriate validation**
-  - Establish a range of possible input, such as title, description, etc., and indicate appropriate errors if they are violated.
+- Use state management methods like `useState`, `localStorage`, or `Cookies` in a simple and scalable manner.
 
-## Deliverables
+## Submission
 
 1. **Source Code**
-   - Submit a **GitHub repository link**.
-     Alternatively, submit the source code as a ZIP file via email.
+   - Submit a **GitHub repository link**.  
+     Alternatively, you can submit a ZIP file of the source code via email.
 
 ## Evaluation Criteria
 
 ### 1. Component Design
 
-- [ ] Each component has clearly defined responsibilities.
-- [ ] Reusable components are effectively designed.
+- [ ] Responsibilities of each component are clearly separated.
+- [ ] Reusable components are designed.
 
 ### 2. Separation of View, State, and Logic
 
-- [ ] Business logic and data operations are appropriately separated from the View (rendering).
-- [ ] State management is simple and effectively implemented.
+- [ ] Business logic and data operations are properly separated from the View (rendering).
+- [ ] State management is simple and appropriately implemented.
 
 ### 3. Code Quality
 
@@ -72,10 +79,9 @@ Develop a simple ToDo list application.
 
 ### 4. UI/UX
 
-- [ ] The application is intuitive to use.
-- [ ] The design is visually clear and easy to understand.
+- [ ] The app is intuitive and easy to use.
+- [ ] The design is visually clear and appealing.
 
 ---
 
-**Aim for simple and efficient design.**  
-Make sure to implement solutions with scalability in mind.
+Fight!

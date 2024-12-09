@@ -52,7 +52,7 @@
 
 ### 4. 状態管理要件
 
-- UseState、LocalStorage、Cookie等の状態管理はシンプルかつ拡張性を考慮した設計を行ってください。
+- `useState`, `localStorage`, `Cookies`等の状態管理はシンプルかつ拡張性を考慮した設計を行ってください。
 
 ## 提出物
 
