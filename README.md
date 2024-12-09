@@ -8,7 +8,7 @@ The VELDT Exam is a pre-employment technical assessment tailored to test a candi
 
 ## EXAMS
 
-1. ToDo App : [Link](<.app/(exam)/exam_1/README.md>)
+1. ToDo App : ./app/(exam)/todo/README.en-US.md
 
 ## Local Setup
 

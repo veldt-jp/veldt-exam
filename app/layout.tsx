@@ -14,26 +14,26 @@ export const hrefs = [
     href: "/todo",
     icon: <Icons.MessageCircle className="h-4 w-4 stroke-[2.5px]" />,
   },
-  {
-    title: "2. WIP",
-    href: "/exam_2",
-    icon: <Icons.MessageCircle className="h-4 w-4 stroke-[2.5px]" />,
-  },
-  {
-    title: "3. WIP",
-    href: "/exam_3",
-    icon: <Icons.MessageCircle className="h-4 w-4 stroke-[2.5px]" />,
-  },
-  {
-    title: "4. WIP",
-    href: "/exam_4",
-    icon: <Icons.MessageCircle className="h-4 w-4 stroke-[2.5px]" />,
-  },
-  {
-    title: "5. WIP",
-    href: "/exam_5",
-    icon: <Icons.MessageCircle className="h-4 w-4 stroke-[2.5px]" />,
-  },
+  // {
+  //   title: "2. WIP",
+  //   href: "/exam_2",
+  //   icon: <Icons.MessageCircle className="h-4 w-4 stroke-[2.5px]" />,
+  // },
+  // {
+  //   title: "3. WIP",
+  //   href: "/exam_3",
+  //   icon: <Icons.MessageCircle className="h-4 w-4 stroke-[2.5px]" />,
+  // },
+  // {
+  //   title: "4. WIP",
+  //   href: "/exam_4",
+  //   icon: <Icons.MessageCircle className="h-4 w-4 stroke-[2.5px]" />,
+  // },
+  // {
+  //   title: "5. WIP",
+  //   href: "/exam_5",
+  //   icon: <Icons.MessageCircle className="h-4 w-4 stroke-[2.5px]" />,
+  // },
 ];
 const sidebar = [
   { title: "Getting Started" },

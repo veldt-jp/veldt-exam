@@ -57,23 +57,23 @@ The application should meet the following requirements:
 
 ### 1. Component Design
 
-- Each component has clearly defined responsibilities.
-- Reusable components are effectively designed.
+- [ ] Each component has clearly defined responsibilities.
+- [ ] Reusable components are effectively designed.
 
 ### 2. Separation of View, State, and Logic
 
-- Business logic and data operations are appropriately separated from the View (rendering).
-- State management is simple and effectively implemented.
+- [ ] Business logic and data operations are appropriately separated from the View (rendering).
+- [ ] State management is simple and effectively implemented.
 
 ### 3. Code Quality
 
-- The code is readable and maintainable.
-- Proper comments and naming conventions are followed.
+- [ ] The code is readable and maintainable.
+- [ ] Proper comments and naming conventions are followed.
 
 ### 4. UI/UX
 
-- The application is intuitive to use.
-- The design is visually clear and easy to understand.
+- [ ] The application is intuitive to use.
+- [ ] The design is visually clear and easy to understand.
 
 ---
 
