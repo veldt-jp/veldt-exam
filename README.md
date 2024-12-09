@@ -19,6 +19,6 @@ The repository is used to evaluate core skills in React.js, Next.js, TypeScript,
 
    Open [localhost:3000](http://localhost:3000) to view the site.
 
-## Exams
+## Exam
 
 See `ToDo App` : ./app/(exam)/todo/README.en-US.md
